@@ -1,0 +1,47 @@
+---
+title: "Telethon Kids Institute"
+subtitle: "Ioslides Template"
+author: Paul Stevenson
+date: August 21, 2018
+output:
+  ioslides_presentation:
+    template: assets/templates/ioslides.html
+    logo: assets/images/logo800.jpg
+    css: assets/css/ioslides.css
+    widescreen: true
+    incremental: true
+vignette: >
+  %\VignetteIndexEntry{Telethon Kids Institute markdown ioslides template}
+  %\VignetteEngine{knitr::rmarkdown}
+  \usepackage[utf8]{inputenc}
+---
+
+```{r init, include = FALSE, echo = FALSE}
+library(biometrics)
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+library(readr)
+library(purrr)
+library(tibble)
+library(stringr)
+library(forcats)
+library(lubridate)
+
+```
+
+# Getting started
+
+## Template vignette
+
+See the ioslides' vignette for instructions on how to use this template by
+entering:
+
+    browseVignettes("biometrics")
+    
+into R or R Studio.
+
+## Ioslides manual
+
+Further detail is found in the ioslides manual at:
+https://rmarkdown.rstudio.com/ioslides_presentation_format
